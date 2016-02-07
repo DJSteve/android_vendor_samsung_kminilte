@@ -153,4 +153,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kminilte/proprietary/lib/lib_Samsung_AudioZoom_v100.so:system/lib/lib_Samsung_AudioZoom_v100.so \
     vendor/samsung/kminilte/proprietary/lib/lib_Samsung_Resampler.so:system/lib/lib_Samsung_Resampler.so \
     vendor/samsung/kminilte/proprietary/lib/lib_Samsung_SB_AM_for_ICS_v04004.so:system/lib/lib_Samsung_SB_AM_for_ICS_v04004.so \
-    vendor/samsung/kminilte/proprietart/lib/libexynosscaler.so:system/lib/libexynosscaler.so
+    vendor/samsung/kminilte/proprietary/lib/libexynosscaler.so:system/lib/libexynosscaler.so
