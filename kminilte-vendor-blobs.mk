@@ -142,7 +142,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kminilte/proprietary/etc/wifi/bcmdhd_p2p.bin_b2:system/etc/wifi/bcmdhd_p2p.bin_b2 \
     vendor/samsung/kminilte/proprietary/etc/wifi/bcmdhd_sta.bin_b2:system/etc/wifi/bcmdhd_sta.bin_b2 \
     vendor/samsung/kminilte/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
-    vendor/samsung/kminilte/proprietary/lib/hw/audio.vendor.universal3470.so:system/lib/hw/audio.vendor.universal3470.so \
+    vendor/samsung/kminilte/proprietary/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
+    vendor/samsung/kminilte/proprietary/lib/hw/audio.r_submix.default.so:system/lib/hw/audio.r_submix.default.so \
+    vendor/samsung/kminilte/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
+    vendor/samsung/kminilte/proprietary/lib/hw/camera.universal3470.so:system/lib/hw/camera.universal3470.so \
+    vendor/samsung/kminilte/proprietary/lib/hw/audio.primary.universal3470.so:system/lib/hw/audio.primary.universal3470.so \
     vendor/samsung/kminilte/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
     vendor/samsung/kminilte/proprietary/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
     vendor/samsung/kminilte/proprietary/lib/libsamsungRecord_ns.so:system/lib/libsamsungRecord_ns.so \
@@ -153,4 +157,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kminilte/proprietary/lib/lib_Samsung_AudioZoom_v100.so:system/lib/lib_Samsung_AudioZoom_v100.so \
     vendor/samsung/kminilte/proprietary/lib/lib_Samsung_Resampler.so:system/lib/lib_Samsung_Resampler.so \
     vendor/samsung/kminilte/proprietary/lib/lib_Samsung_SB_AM_for_ICS_v04004.so:system/lib/lib_Samsung_SB_AM_for_ICS_v04004.so \
-    vendor/samsung/kminilte/proprietary/lib/libexynosscaler.so:system/lib/libexynosscaler.so
+    vendor/samsung/kminilte/proprietary/lib/lib_SamsungRec_V04004.so:system/lib/lib_SamsungRec_V04004.so \
+    vendor/samsung/kminilte/proprietary/lib/lib_Samsung_AudioZoom_v102.so:system/lib/lib_Samsung_AudioZoom_v102.so \
+    vendor/samsung/kminilte/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
+    vendor/samsung/kminilte/proprietary/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
+    vendor/samsung/kminilte/proprietary/lib/libedmnativehelper.so:system/lib/libedmnativehelper.so \
+    vendor/samsung/kminilte/proprietary/lib/libseccamera_jni.so:system/lib/libseccamera_jni.so \
+    vendor/samsung/kminilte/proprietary/lib/libseccameracore.so:system/lib/libseccameracore.so \
+    vendor/samsung/kminilte/proprietary/lib/libseccameraeffect.so:system/lib/libseccameraeffect.so \
+    vendor/samsung/kminilte/proprietary/lib/libexynosscaler.so:system/lib/libexynosscaler.so \
+    vendor/samsung/kminilte/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so
+
